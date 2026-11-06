@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hckick",
+  "version": "1.0.0",
+  "name": "HcKick",
+  "description": "Kicks players on death.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.hckick.HcKick"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11"
+  }
+}
